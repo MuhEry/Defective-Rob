@@ -1,0 +1,541 @@
+{
+  "context": {
+    "projectPath": "D:/MuhEry/Proce/DefectiveRob/Packages",
+    "unityVersion": "6000.3.0f1"
+  },
+  "inputs": [
+    "D:\\MuhEry\\Proce\\DefectiveRob\\Packages\\manifest.json",
+    "D:\\MuhEry\\Proce\\DefectiveRob\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.2d.sprite@ee8d95778bc9",
+      "fingerprint": "ee8d95778bc93b93d9627cabad1c44d5b6e964d8",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.2d.tilemap@3d8f5247dec9",
+      "fingerprint": "3d8f5247dec91484c455d3552897dd6eef2b3c58",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap.extras@6.0.1": {
+      "name": "com.unity.2d.tilemap.extras",
+      "displayName": "2D Tilemap Extras",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3dde84bf3867",
+      "fingerprint": "3dde84bf38677b4165ad5f568b353d4ba942d63c",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "6.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ai.navigation@2.0.9": {
+      "name": "com.unity.ai.navigation",
+      "displayName": "AI Navigation",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.ai.navigation@5218e4bf7edc",
+      "fingerprint": "5218e4bf7edc04fcad4ed3836c1c41aef334b996",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.9",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.collab-proxy@2.10.2": {
+      "name": "com.unity.collab-proxy",
+      "displayName": "Unity Version Control",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.collab-proxy@3351acaba9c9",
+      "fingerprint": "3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.10.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ide.rider@3.0.38": {
+      "name": "com.unity.ide.rider",
+      "displayName": "JetBrains Rider Editor",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.38",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ide.visualstudio@2.0.25": {
+      "name": "com.unity.ide.visualstudio",
+      "displayName": "Visual Studio Editor",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.ide.visualstudio@74aa435fc4bb",
+      "fingerprint": "74aa435fc4bb41890f400130ec80f271d1292fd4",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.25",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.inputsystem@1.16.0": {
+      "name": "com.unity.inputsystem",
+      "displayName": "Input System",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.inputsystem@552acc76aabe",
+      "fingerprint": "552acc76aabe96578f58f3467db2e69552a128be",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.16.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.multiplayer.center@1.0.1": {
+      "name": "com.unity.multiplayer.center",
+      "displayName": "Multiplayer Center",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.multiplayer.center@5943376a2da3",
+      "fingerprint": "5943376a2da32ca9a1a275959f2e2f769aeb737e",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.0.1",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.render-pipelines.universal@17.3.0": {
+      "name": "com.unity.render-pipelines.universal",
+      "displayName": "Universal Render Pipeline",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.render-pipelines.universal@d9aadd996b24",
+      "fingerprint": "d9aadd996b246f5fe175a0476e09bc9741c72f81",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "17.3.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.test-framework@1.6.0": {
+      "name": "com.unity.test-framework",
+      "displayName": "Test Framework",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d",
+      "fingerprint": "0b7a23ab2e1d74441a5afdffa63f417929756957",
+      "editorCompatibility": "6000.0.44f1",
+      "version": "1.6.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.timeline@1.8.9": {
+      "name": "com.unity.timeline",
+      "displayName": "Timeline",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.9",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "displayName": "Unity UI",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.ugui@4ee0fac0c6e4",
+      "fingerprint": "4ee0fac0c6e4c152adcf1ae6457981f8a39985db",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.visualscripting@1.9.9": {
+      "name": "com.unity.visualscripting",
+      "displayName": "Visual Scripting",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.visualscripting@191c0d7e3b69",
+      "fingerprint": "191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.9.9",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.modules.accessibility@1.0.0": {
+      "name": "com.unity.modules.accessibility",
+      "displayName": "Accessibility",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.adaptiveperformance@1.0.0": {
+      "name": "com.unity.modules.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.adaptiveperformance",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ai@1.0.0": {
+      "name": "com.unity.modules.ai",
+      "displayName": "AI",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.androidjni@1.0.0": {
+      "name": "com.unity.modules.androidjni",
+      "displayName": "Android JNI",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.assetbundle@1.0.0": {
+      "name": "com.unity.modules.assetbundle",
+      "displayName": "Asset Bundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.cloth@1.0.0": {
+      "name": "com.unity.modules.cloth",
+      "displayName": "Cloth",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+      "displayName": "Director",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "displayName": "Particle System",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "displayName": "Physics 2D",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+      "displayName": "Screen Capture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.terrain@1.0.0": {
+      "name": "com.unity.modules.terrain",
+      "displayName": "Terrain",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.terrainphysics@1.0.0": {
+      "name": "com.unity.modules.terrainphysics",
+      "displayName": "Terrain Physics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.tilemap@1.0.0": {
+      "name": "com.unity.modules.tilemap",
+      "displayName": "Tilemap",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.umbra@1.0.0": {
+      "name": "com.unity.modules.umbra",
+      "displayName": "Umbra",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unityanalytics@1.0.0": {
+      "name": "com.unity.modules.unityanalytics",
+      "displayName": "Unity Analytics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequest@1.0.0": {
+      "name": "com.unity.modules.unitywebrequest",
+      "displayName": "Unity Web Request",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+      "displayName": "Unity Web Request Asset Bundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequestaudio@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestaudio",
+      "displayName": "Unity Web Request Audio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequesttexture@1.0.0": {
+      "name": "com.unity.modules.unitywebrequesttexture",
+      "displayName": "Unity Web Request Texture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequestwww@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestwww",
+      "displayName": "Unity Web Request WWW",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vectorgraphics@1.0.0": {
+      "name": "com.unity.modules.vectorgraphics",
+      "displayName": "Vector Graphics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vectorgraphics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vehicles@1.0.0": {
+      "name": "com.unity.modules.vehicles",
+      "displayName": "Vehicles",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.video@1.0.0": {
+      "name": "com.unity.modules.video",
+      "displayName": "Video",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vr@1.0.0": {
+      "name": "com.unity.modules.vr",
+      "displayName": "VR",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.wind@1.0.0": {
+      "name": "com.unity.modules.wind",
+      "displayName": "Wind",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.xr@1.0.0": {
+      "name": "com.unity.modules.xr",
+      "displayName": "XR",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+      "displayName": "Subsystems",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "displayName": "Custom NUnit",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d",
+      "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.render-pipelines.core@17.3.0": {
+      "name": "com.unity.render-pipelines.core",
+      "displayName": "Scriptable Render Pipeline Core",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.render-pipelines.core@33b0f6d355dd",
+      "fingerprint": "33b0f6d355dd85889fe12b1205b211093eedf629",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "17.3.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.shadergraph@17.3.0": {
+      "name": "com.unity.shadergraph",
+      "displayName": "Shader Graph",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.shadergraph@bd2576295577",
+      "fingerprint": "bd2576295577035a5a36b451e9fef739f1ef0948",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "17.3.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.render-pipelines.universal-config@17.0.3": {
+      "name": "com.unity.render-pipelines.universal-config",
+      "displayName": "Universal Render Pipeline Config",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.searcher@4.9.4": {
+      "name": "com.unity.searcher",
+      "displayName": "Searcher",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.searcher@d45a78918735",
+      "fingerprint": "d45a78918735dd5b1de2247c6e3567c60aa24115",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.burst@1.8.25": {
+      "name": "com.unity.burst",
+      "displayName": "Burst",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.burst@1df634d836b8",
+      "fingerprint": "1df634d836b8106f13dc82401a91b336d615a874",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.25",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.mathematics@1.3.3": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.mathematics@19a9377c4ffa",
+      "fingerprint": "19a9377c4ffa59370edad3e6a34e4445529badde",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.collections@2.6.2": {
+      "name": "com.unity.collections",
+      "displayName": "Collections",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19",
+      "fingerprint": "aea9d3bd5e19f2a90fc3a39919974a5f3613a159",
+      "editorCompatibility": "2022.3.20f1",
+      "version": "2.6.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.mono-cecil@1.11.6": {
+      "name": "com.unity.nuget.mono-cecil",
+      "displayName": "Mono Cecil",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "fingerprint": "ecb9724e46fff855c46a4f37f0a3377a3cfffc06",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.11.6",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.test-framework.performance@3.2.0": {
+      "name": "com.unity.test-framework.performance",
+      "displayName": "Performance testing API",
+      "resolvedPath": "D:\\MuhEry\\Proce\\DefectiveRob\\Library\\PackageCache\\com.unity.test-framework.performance@0840f58e4562",
+      "fingerprint": "0840f58e45624f7677679a0f8b6a5137689e607f",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "3.2.0",
+      "source": "registry",
+      "testable": false
+    }
+  }
+}

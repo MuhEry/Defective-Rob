@@ -1,0 +1,110 @@
+{
+  "name": "com.unity.inputsystem",
+  "displayName": "Input System",
+  "version": "1.16.0",
+  "unity": "2022.3",
+  "description": "A new input system which can be used as a more extensible and customizable alternative to Unity's classic input system in UnityEngine.Input.",
+  "keywords": [
+    "input",
+    "events",
+    "keyboard",
+    "mouse",
+    "gamepad",
+    "touch",
+    "vr",
+    "xr"
+  ],
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "_upm": {
+    "changelog": "### Changed\n- Replaced \"Look\" rebinding button for \"Keyboard\" control scheme with a mouse sensitivity slider in `RebindingUISample` to illustrate how to support customizing scaling of mouse deltas and how to reapply the persisted setting between runs.\n- Changed: Input System no longer depends the obsolete com.unity.modules.vr package.\n- Removed code that had to do with Unity versions older than Unity 2021.3 LTS.\n\n### Added\n- Added an example of how to swap two similar controls to the `RebindingUISample`. This is accessible via a button with two arrows at the right hand-side of the screen. Pressing the button allows swapping the current bindings of the \"Move\" and \"Look\" gamepad bindings via the new `RebindActionUI.SwapBinding(RebindActionUI other)` method.\n- Added support for (MonoBehavior OnMouse events) [https://docs.unity3d.com/ScriptReference/MonoBehaviour.html] when running the Input System on Unity 6000.4 or newer.\n- Added tests and a sample for MonoBehavior OnMouse events using the InputSystem package.\n- Added support for all the existing InputControl types in InputTestFixture.Trigger [ISXB-1716]\n\n### Fixed\n- Fixed warnings being generated on Unity 6.3 (beta). (ISXB-1718).\n- Fixed an issue in `DeltaStateEvent.From` where unsafe code would throw exception or crash if internal pointer `currentStatePtr` was `null`. [ISXB-1637](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1637).\n- Fixed an issue in `InputTestFixture.Set` where attempting to change state of a device not belonging to the test fixture context would result in null pointer exception or crash. [ISXB-1637](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1637).\n- Fixed an issue where input action parameter overrides applied via `InputActionRebindingExtensions.ApplyParameterOverride` would not be applied if the associated binding has the empty string as `InputBinding.name`and the binding mask also has the empty string as name. (ISXB-1721).\n- Fixed an issue in `InputActionReference` where `Set` was not updating the cached action leading to incorrect evaluation of `InputActionReference.action` after first being cached, then set, then read again. This could lead to reference not being reset if set programmatically during play-mode. [ISXB-1584](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1584).\n- Fixed an issue where `InputActionSetupExtensions.Remove` will result in `NullReferenceException` if the action being removed has no bindings. (ISXB-1688).\n- Fixed an issue where assigning a ``MonoBehaviour` field of type `InputActionReference` to an instance stored in `.inputactions` asset via `InputActionReference.Set` in playmode corrupts the originally referenced asset. (ISXB-1692).\n- Fixed an issue where `InputActionReference.Create(null)` returns `null` instead \"of a reference object to the given action\" as documented behaviour for the API. (ISXB-1693)\n- Fixed an issue where `InputActionReference.Set(null)` does not update the cached input action reference nor the `ScriptableObject.name` leading to incorrect action being returned and reference showing up as the path to the previously assigned action in Inspector. (ISXB-1694)\n- Fixed an issue where Inspector field of type `InputActionReference` isn't reflecting broken reference in case action is deleted from asset, action map is deleted from asset, or the asset itself is deleted. (ISXB-1701)\n- Fixed HID parsing not handling logical minimum and maximum values correctly when they are negative. This applies for platforms that parse HID descriptors in the package, e.g. macOS at the moment.\n- Fix usage of correct data format for stick axes in HID Layout Builder ([User contribution](https://github.com/Unity-Technologies/InputSystem/pull/2245))\n- Fixed InputSystemUIInputModule calling pointer events on parent objects even when the \"Send Pointer Hover To Parent\" is off on 2022.3.XX. This was  was previously only available on Unity 6 versions since 1.11.0. [ISXB-1296]\n- Limited the Add Control Scheme popup window max size to be its parent window, so that it won't resize bey"
+  },
+  "upmCi": {
+    "footprint": "586497bc3c709e32d1919ffe953572421e988a43"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.16/manual/index.html",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/InputSystem.git",
+    "type": "git",
+    "revision": "39ff980990a69de94d44cf1935dc5a8a6884103a"
+  },
+  "samples": [
+    {
+      "displayName": "Custom Binding Composite",
+      "description": "Shows how to implement a custom composite binding.",
+      "path": "Samples~/CustomComposite"
+    },
+    {
+      "displayName": "Custom Device",
+      "description": "Shows how to implement a custom input device.",
+      "path": "Samples~/CustomDevice"
+    },
+    {
+      "displayName": "Custom Device Usages",
+      "description": "Shows how to tag devices with custom usage strings that can be used, for example, to distinguish multiple instances of the same type of device (e.g. 'Gamepad') based on how the device is used (e.g. 'Player1' vs 'Player2' or 'LeftHand' vs 'RightHand').",
+      "path": "Samples~/CustomDeviceUsages"
+    },
+    {
+      "displayName": "Gamepad Mouse Cursor",
+      "description": "An example that shows how to use the gamepad for driving a mouse cursor for use with UIs.",
+      "path": "Samples~/GamepadMouseCursor"
+    },
+    {
+      "displayName": "In-Game Hints",
+      "description": "Demonstrates how to create in-game hints in the UI which reflect current bindings and active control schemes.",
+      "path": "Samples~/InGameHints"
+    },
+    {
+      "displayName": "InputDeviceTester",
+      "description": "A scene containing UI to visualize the controls on various supported input devices.",
+      "path": "Samples~/InputDeviceTester"
+    },
+    {
+      "displayName": "Input Recorder",
+      "description": "Shows how to capture and replay input events. Also useful by itself to debug input event sequences.",
+      "path": "Samples~/InputRecorder"
+    },
+    {
+      "displayName": "On-Screen Controls",
+      "description": "Demonstrates a simple setup for an on-screen joystick.",
+      "path": "Samples~/OnScreenControls"
+    },
+    {
+      "displayName": "Rebinding UI",
+      "description": "An example UI component that demonstrates how to create UI for rebinding actions.",
+      "path": "Samples~/RebindingUI"
+    },
+    {
+      "displayName": "Simple Demo",
+      "description": "A walkthrough of a simple character controller that demonstrates several techniques for working with the input system. See the README.md file in the sample for details.",
+      "path": "Samples~/SimpleDemo"
+    },
+    {
+      "displayName": "Simple Multiplayer",
+      "description": "Demonstrates how to set up a simple local multiplayer scenario.",
+      "path": "Samples~/SimpleMultiplayer"
+    },
+    {
+      "displayName": "Touch Samples",
+      "description": "A series of sample scenes for using touch input with the Input System package. This sample is not actually part of the package, but needs to be downloaded.",
+      "path": "Samples~/TouchSamples"
+    },
+    {
+      "displayName": "UI vs. Game Input",
+      "description": "An example that shows how to deal with ambiguities that may arise when overlaying interactive UI elements on top of a game scene.",
+      "path": "Samples~/UIvsGameInput"
+    },
+    {
+      "displayName": "Unity Remote",
+      "description": "An example with a simple scene for trying out the Unity Remote app.",
+      "path": "Samples~/UnityRemote"
+    },
+    {
+      "displayName": "Visualizers",
+      "description": "Several example visualizations of input controls/devices and input actions.",
+      "path": "Samples~/Visualizers"
+    }
+  ],
+  "_fingerprint": "552acc76aabe96578f58f3467db2e69552a128be"
+}
