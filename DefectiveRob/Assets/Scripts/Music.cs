@@ -6,6 +6,7 @@ public class Music : MonoBehaviour
 
     void Awake()
     {
+        Time.timeScale = 1f;
         // Eğer sahnede zaten bir müzik çalar varsa, ben fazlalığım, beni yok et.
         if (instance != null)
         {

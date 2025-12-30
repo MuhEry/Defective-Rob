@@ -4,8 +4,26 @@ public class LaserDamage : MonoBehaviour
 {
     [Header("Lazer Ayarları")]
     public float saniyeBasinaHasar = 30f; // Her saniye kaç can gidecek?
+    private AudioSource sesKaynagi;
 
-    // OnTriggerStay: Nesne lazerin içinde kaldığı SÜRECE çalışır (her karede)
+    void Start()
+    {
+        sesKaynagi = GetComponent<AudioSource>();
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            sesKaynagi.Play();
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            sesKaynagi.Stop();
+        }
+    }
     private void OnTriggerStay(Collider other)
     {
         // Çarpan şey Player mı?
@@ -15,9 +33,6 @@ public class LaserDamage : MonoBehaviour
 
             if (player != null)
             {
-                // Time.deltaTime ile çarpmak çok önemlidir.
-                // Bu sayede bilgisayarın hızı ne olursa olsun saniyede tam 30 can gider.
-                // Eğer çarpmazsak, saniyede 60-100 kere vurur ve karakter anında ölür.
                 player.TakeDamage(saniyeBasinaHasar * Time.deltaTime);
             }
         }

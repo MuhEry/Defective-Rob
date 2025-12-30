@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ara3.unity
     guid: d336ae5f43cd7eb4fb53e6e7d00b1cfe
   - enabled: 1
+    path: Assets/Scenes/ara3.1.unity
+    guid: cd39d410fafc9b14bb5a830408866c1c
+  - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 05fd8c9bd6d5c7249a5e02e5c1d16246
   - enabled: 1
@@ -38,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/son.unity
     guid: 1f55b921176f59c48ba0afd57917f840
+  - enabled: 1
+    path: Assets/Scenes/Egg.unity
+    guid: 8a1886b8b2ae69948afc6371108cf191
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
